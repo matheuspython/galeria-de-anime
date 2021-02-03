@@ -1,0 +1,41 @@
+footer.footer {
+    width: 100%;
+    background-color: rgb(23, 99, 187);
+    color: white;
+}
+
+.container-footer {
+    padding: 20px 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.footer ul {
+    list-style-type: none;
+}
+
+footer.footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.footer ul li a:hover {
+    color: rgb(0, 16, 158);
+}
+
+footer.footer ul li span {
+    position: relative;
+    top: -15px;
+    margin: 0 5px;
+}
+
+
+/*inicio media queries*/

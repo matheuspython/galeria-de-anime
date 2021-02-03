@@ -1,0 +1,178 @@
+section#section-bg {
+    width: 100%;
+    height: 80vh;
+    max-height: 500vh;
+    background-image: url('https://wallpapercave.com/wp/wp5854152.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#text-wraper-top {
+    display: inline-block;
+    margin: 150px;
+}
+
+#text-wraper-top h2 {
+    color: rgb(33, 137, 144);
+    width: 300px;
+}
+
+#text-wraper-top p {
+    color: rgb(238, 238, 238);
+    width: 300px;
+}
+
+
+/*inicio media queryes*/
+
+@media screen and (max-width: 609px) {
+    #text-wraper-top h2 {
+        width: 200px;
+    }
+    #text-wraper-top p {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    #text-wraper-top h2 {
+        width: 100px;
+    }
+    #text-wraper-top p {
+        width: 100px;
+    }
+}
+
+
+/**/
+
+section.texto-propaganda {
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgb(251, 238, 249);
+}
+
+section.texto-propaganda h2 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.container-propaganda {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1280px;
+    text-align: center;
+}
+
+.box-proposta {
+    margin: 9px 5px;
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.circulo-box {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    right: 22%;
+    transform: translate(-50%, 20%);
+}
+
+.box-proposta:hover .circulo-box {
+    background-color: rgb(31, 28, 187);
+}
+
+.box-proposta h3 {
+    margin-top: 50px;
+}
+
+.box-proposta p {
+    margin-top: 20px;
+}
+
+.azul {
+    background-color: rgb(40, 40, 224);
+}
+
+.azul-escuro {
+    background-color: rgb(10, 20, 112);
+}
+
+
+/**/
+
+
+/**/
+
+main.principal {
+    padding: 20px 2%;
+    width: 100%;
+    background-color: rgb(233, 234, 235);
+}
+
+.container-principal h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-principal {
+    width: 98%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 8px;
+    background-color: #cccccc;
+    border-radius: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+
+.box:hover {
+    width: 275px;
+    height: 275px;
+}
+
+
+/**/
+
+@media screen and (max-width: 525px) {
+    .box-proposta {
+        margin: 18px 0;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+    }
+    .circulo-box {
+        right: 25%;
+        transform: translate(-50%, 20%);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #text-wraper-top {
+        position: absolute;
+        top: 70%;
+        left: 50px;
+        transform: translate(10%, -100%);
+        display: inline-block;
+        margin: 0;
+    }
+}
